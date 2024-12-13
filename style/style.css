@@ -1,0 +1,41 @@
+.courses-section .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.courses-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.courses-section .card-title {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.courses-section .card-text {
+    color: #555;
+}
+
+.courses-section .btn-outline-primary {
+    border-width: 2px;
+}
+
+.courses-section .card-img-top {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    margin-top: 20px;
+    width: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFC;
+}
